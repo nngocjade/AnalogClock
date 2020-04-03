@@ -2,12 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  margin-top: 10px;
 }
 
 body {
   width: 100%;
-  height: 100%;
+  height: 800px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -16,7 +15,7 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 10%;
   display: block;
   align-items: center;
 }
@@ -29,12 +28,24 @@ header > p {
 
 .clock-wrapper {
   width: 40%;
-  height: 300px;
+  height: 70%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.digital-clock-wrapper{
+ width: 100px;
+ height: 70px;
+ margin-top: 200px;
 }
 
 #digital-clock {
   color: lightcoral;
+}
+
+.analog-clock-wrapper{
+ width: 100px;
+ height: 100px;
+ border: 3px solid lightcoral;
 }

@@ -31,21 +31,33 @@ header > p {
   height: 70%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 20px;
 }
 
 .digital-clock-wrapper{
- width: 100px;
  height: 70px;
- margin-top: 200px;
+ display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-content: center;
+ 
 }
+
 
 #digital-clock {
   color: lightcoral;
+  border: 2px solid rgb(55, 197, 190);
+  padding: 10px;
 }
 
+
 .analog-clock-wrapper{
- width: 100px;
- height: 100px;
+ width: 250px;
+ height: 250px;
  border: 3px solid lightcoral;
+ border-radius: 50%;
 }

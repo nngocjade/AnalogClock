@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="./analogClock_styles.css">
- <title>Analog Clock</title>
-</head>
-<body>
- <header>
-   <p>What is time?</p>
-   <p>the essence of being.</p>
- </header>
- 
- <div id="clock-wrapper">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./analogClock_styles.css" />
+    <title>Analog Clock</title>
+  </head>
+  <body>
+    <header>
+      <p>What is time?</p>
+      <p>the essence of being.</p>
+    </header>
 
-  <div class="analog-clock-wrapper">
-   <div id="analog-clock">
-    <p class="hour">12</p>
-    <p class="hour">1</p>
-    <p class="hour">2</p>
-    <p class="hour">3</p>
-    <p class="hour">4</p>
-    <p class="hour">5</p>
-    <p class="hour">6</p>
-    <p class="hour">7</p>
-    <p class="hour">8</p>
-    <p class="hour">9</p>
-    <p class="hour">10</p>
-    <p class="hour">11</p>
-    <p id="minute-hand"></p>
-    <p id="hour-hand"></p>
-   </div>
-  </div>
-   
-   <div class="digital-clock-wrapper">
-    <div id="digital-clock"></div>
-   </div>
+    <div id="clock-wrapper">
+      <div class="analog-clock-wrapper">
+        <div id="analog-clock">
+          <p id="twelve" class="hour">12</p>
+          <p id="one" class="hour">1</p>
+          <p id="two" class="hour">2</p>
+          <p id="three" class="hour">3</p>
+          <p id="four" class="hour">4</p>
+          <p id="five" class="hour">5</p>
+          <p id="six" class="hour">6</p>
+          <p id="seven" class="hour">7</p>
+          <p id="eight" class="hour">8</p>
+          <p id="nine" class="hour">9</p>
+          <p id="ten" class="hour">10</p>
+          <p id="eleven" class="hour">11</p>
+          <p id="minute-hand" class="minute-hand"></p>
+          <p id="hour-hand" class="hour-hand"></p>
+          <p id="seconds-hand" class="seconds-hand"></p>
+        </div>
+      </div>
 
- </div>
- 
+      <div class="digital-clock-wrapper">
+        <div id="digital-clock"></div>
+      </div>
+    </div>
 
- <script src="./analogClock.js"></script>
-</body>
+    <script src="./analogClock.js"></script>
+  </body>
 </html>

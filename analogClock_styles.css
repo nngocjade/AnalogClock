@@ -37,16 +37,14 @@ header > p {
   padding: 20px;
 }
 
-.digital-clock-wrapper{
- height: 70px;
- display: flex;
+.digital-clock-wrapper {
+  height: 70px;
+  display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
   align-content: center;
- 
 }
-
 
 #digital-clock {
   color: lightcoral;
@@ -54,10 +52,97 @@ header > p {
   padding: 10px;
 }
 
+.analog-clock-wrapper {
+  width: 250px;
+  height: 250px;
+  border: 3px solid lightcoral;
+  border-radius: 50%;
+  position: relative;
+}
 
-.analog-clock-wrapper{
- width: 250px;
- height: 250px;
- border: 3px solid lightcoral;
- border-radius: 50%;
+.analog-clock-wrapper > p {
+  position: absolute;
+}
+/* --------------------- */
+
+#twelve {
+  top: 0;
+  left: 50%;
+  margin-left: -8px;
+}
+
+#six {
+  bottom: 0;
+  left: 50%;
+  margin-left: -4px;
+}
+
+/* --------------------- */
+
+#three {
+  right: 3px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+#nine {
+  left: 3px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+/* --------------------- */
+
+#one {
+  top: 14px;
+  right: 64px;
+  margin-left: -4px;
+}
+
+#five {
+  bottom: 14px;
+  right: 64px;
+  margin-left: -4px;
+}
+
+/* --------------------- */
+
+#two {
+  top: 55px;
+  right: 22px;
+  margin-left: -8px;
+}
+
+#four {
+  bottom: 55px;
+  right: 22px;
+  margin-left: -8px;
+}
+
+/* --------------------- */
+
+#eleven {
+  top: 14px;
+  left: 64px;
+  margin-left: -3px;
+}
+
+#seven {
+  bottom: 14px;
+  left: 64px;
+  margin-left: -3px;
+}
+
+/* --------------------- */
+
+#ten {
+  top: 55px;
+  left: 22px;
+  margin-left: -3px;
+}
+
+#eight {
+  bottom: 55px;
+  left: 22px;
+  margin-left: -3px;
 }
